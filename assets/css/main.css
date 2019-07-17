@@ -1,0 +1,60 @@
+
+/**/
+
+.mac-gif {
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+  top: 23%;
+}
+
+
+@media (max-width: 1199.98px) {
+  .mac-gif {
+    top: 25%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mac-gif {
+    width: 74.5%;
+    top: 32%;
+    left: 12.9%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mac-gif {
+    width: 73%;
+    top: 37%;
+    left: 13.5%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mac-gif {
+    display: none;
+  }
+
+  .mac-placeholder {
+    display: none;
+  }
+}
+
+
+
+/*@media (max-width: 1200px) {
+  #modal-default {
+    max-width: 800px;
+  }
+}
+*/
+@media (min-width: 1200px) {
+  .modal-lg {
+    max-width: 1100px;
+  }
+}
+
+a {
+  color: #52cdef;
+}

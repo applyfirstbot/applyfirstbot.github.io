@@ -1,0 +1,4 @@
+caddy
+/dist
+.cache
+/node_modules
